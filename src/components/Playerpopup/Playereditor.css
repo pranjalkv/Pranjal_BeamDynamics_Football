@@ -1,0 +1,150 @@
+#playereditor
+{
+    width: 480px;
+    height: 582px;
+    border-radius: 8px;
+    box-shadow: 0px 12px 28px 0px rgba(22, 22, 22, 0.50);
+    background-color: var(--neutral);
+    margin: 100px auto;
+    padding: 24px;
+    position: relative;
+}
+.nobg-input
+{
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 12px 16px;
+    border: 1px solid var(--defColor);
+    color:var(--white)
+}
+.edit-form
+{
+    display: flex;
+    margin-top: 24px;
+}
+.player-name
+{
+    width: 274px;
+    margin-top: 8px;
+}
+.player-num
+{
+    width: 142px;
+    margin-top: 8px;
+}
+.physique
+{
+    width: 208px;
+    margin-top: 8px;
+}
+.edit-physique
+{
+    display: flex;
+    margin-top: 16px;
+}
+.select-div 
+{
+    margin-top: 16px;
+    position: relative;
+}
+.select-div select
+{
+    width: 100%;
+    margin-top: 8px;
+    appearance: none;
+    padding-right: 20px;
+}
+.chevon
+{
+    color: var(--forText);
+font-size: 14px;
+font-weight: 900;
+transform: rotate(-90deg);
+position: absolute;
+right: 16px;
+bottom:10px;
+}
+select option
+{
+    background-color: black;
+    border-radius: 8px;
+    background-color: var(--neutral);
+}
+.starter-pop
+{
+    width: 389px;
+    padding: 24px;
+    background-color:var(--neutral);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 12px 28px 0px rgba(22, 22, 22, 0.50);
+    position: absolute;
+    z-index: 7;
+    font-size: 11px;
+}
+.delete-pop
+{
+    background-color:var(--neutral) ;
+    border-radius: 8px;
+    box-shadow: 0px 12px 28px 0px rgba(22, 22, 22, 0.50);
+    width: 379px;
+    margin: 100px auto;
+    padding: 18px 24px 24px 24px;
+}
+.confrimDel-btn
+{
+    background-color: var(--red);
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+}
+.cancel-btn
+{
+    background-color: transparent;
+    border:1px solid var(--defColor);
+    border-radius:8px;
+    padding: 12px 20px;
+    margin-right: 8px;
+    color: var(--forText);
+}
+.confrimDel-btn:hover
+{
+    background-color: var(--brown);
+}
+.cancel-btn:hover
+{
+    color: var(--white);
+}
+.lbl-radio
+{
+    margin-right: 16px;
+    font-size:14px;
+    color:var(--forText);
+    border-right:2px solid transparent
+}
+.lbl-radio span
+{
+    margin-left: 12px;
+}
+input[type="radio"]:checked
+{
+-moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  outline: 4px solid var(--orange);
+  accent-color: var(--neutral);
+}
+input[type="radio"]
+{
+    -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  outline: 2px solid var(--defColor);
+}

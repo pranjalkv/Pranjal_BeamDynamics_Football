@@ -1,0 +1,113 @@
+.front-design
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1226px;
+    width: 1226px;
+    margin: 40px auto 0 auto;
+}
+.head-part
+{
+    border-radius: 2px solid var(--orange);
+}
+.head-part span{
+    color: var(--orange);
+    font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+}
+.edit-inp
+{
+    background-color: transparent;
+    border: none;
+}
+.edit-team
+{
+    font-size: 14px;
+    margin-left: 8px;
+    color: var(--white);
+}
+.heading-class:hover .hover-edit
+{
+    display: inline-block;
+}
+.hover-edit
+{
+    display: none;
+}
+.search-box
+{
+   padding: 12px 16px 11px 43px;
+   width: 248px;
+   border-radius: 8px;
+   border: 1px solid var(--defColor);
+    font-weight: 500;
+   background-color: transparent;
+   color: var(--muted);
+   height: 44px;
+   margin-right: 8px;
+}
+.search-icon
+{
+    position: absolute;
+    color: var(--muted);
+    background-color: transparent;
+    left:16px;
+    top:13px;
+}
+.input-actions
+{
+    border: none;
+    position: absolute;
+    font-weight: 500;
+    padding: 2px 2px;
+    top:13px;
+}
+.enter-Search
+{
+    color: var(--orange);
+    left: 186px;
+    background-color: #222;
+}
+.cancel-search
+{
+   color: var(--muted);
+    left: 216px;
+    background-color: #222;
+}
+
+.re-imoprt-btn
+{
+    padding: 12px 16px 11px 16px;
+    font-size: 14px;
+    background-color: transparent;
+    color: var(--forText);
+    border: 1px solid var(--defColor);
+    border-radius: 8px;
+}
+.re-imoprt-btn:hover
+{
+color: var(--white);
+}
+
+.squad-import
+{
+    flex-direction: column;
+    position: absolute;
+    top:47%;
+    left: 42%;
+    transform: translatey(43%)
+}
+.squad-import p, .squad-import button
+{
+    background-color: transparent;
+    font-size: 14px;
+font-weight: 400;
+color: var(--forText);
+}
+.squad-import button
+{
+    margin-top: 8px;
+    color: var(--orange);
+    border: none;
+}

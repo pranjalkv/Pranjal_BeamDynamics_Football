@@ -1,0 +1,115 @@
+:root{
+  --orange: #FEA013;
+  --white:#F8F8F8;
+  --muted:#999999;
+  --defColor:#494949;
+  --brown:#BA4A0C;
+  --neutral:#2D2D2D;
+  --red:#D23131;
+  --forText:#CBCBCB;
+}
+*
+{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+html {
+    min-height: 100%;
+}
+
+body
+{
+   background:-webkit-linear-gradient(180deg,#222 0%, #131313 100%);
+  background:-moz-linear-gradient(180deg,#222 0%, #131313 100%);
+  background:linear-gradient(180deg,#222 0%, #131313 100%);
+  font-family: 'Poppins', sans-serif;
+}
+.heading-class
+{
+  font-size: 18px;
+font-weight: 600;
+color: var(--white);
+}
+.subHeading-class
+{
+  font-size: 14px;
+font-weight: 500;
+color: var(--white);
+}
+.transp-btn
+{
+  background-color: transparent;
+    border: none;
+}
+.popup-bg
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000080;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7;
+}
+.flex-center
+{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close-action
+{
+    color: var(--forText);
+    margin-top: 4px;
+}
+button,input,select
+{
+    font-family: 'Poppins', sans-serif;
+}
+button
+{
+  cursor: pointer;
+}
+select::-webkit-scrollbar {
+  width: 10px;
+}
+select::-webkit-scrollbar-thumb {
+  background-color: var(--muted); /* Change this to your desired color */
+  border-radius: 6px;
+}
+
+select::-webkit-scrollbar-track {
+  background-color: var(--neutral); /* Change this to your desired color */
+}
+.import-btn
+{
+    padding: 12px 16px 11px 16px;
+    font-size: 14px;
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+}
+
+.import-btn:hover
+{
+    background-color: var(--brown);
+}
+.import-pos
+{
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+}
+.import-dis
+{
+    padding: 12px 16px 11px 16px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #707070;
+    border: none;
+    border-radius: 8px;
+    pointer-events: none;
+}
