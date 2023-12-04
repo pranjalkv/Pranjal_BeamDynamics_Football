@@ -83,7 +83,6 @@ List any major frameworks/libraries used to develop this project.
 * [![React][React.js]][React-url]
 * ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
