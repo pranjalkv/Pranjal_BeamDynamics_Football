@@ -26,8 +26,6 @@ function Front({isTeam})
 
     useEffect(()=>{
         setSubmitted(checkPlayer)
-        console.log("change")
-        console.log(checkPlayer)
     },[checkPlayer])
 
     useEffect(()=>{

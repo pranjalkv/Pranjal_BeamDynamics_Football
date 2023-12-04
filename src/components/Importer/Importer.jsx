@@ -44,7 +44,6 @@ function Importer({closer,setCloser})
       header: true, 
     });}
     setFilename(file.name)
-    console.log(e)
     }
 
     useEffect(()=>{
