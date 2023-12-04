@@ -119,7 +119,7 @@ const nation=[
    "Moldovan",
    "Monacan",
    "Mongolian",
-   "Moroccan",
+   "Morocco",
    "Mosotho",
    "Motswana",
    "Mozambican",

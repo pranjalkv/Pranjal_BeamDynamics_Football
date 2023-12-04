@@ -93,7 +93,8 @@ function Playereditor({openEdit,setOpenedit})
                 <p className="subHeading-class">Nationality</p>
                 <p className="chevon">&lt;</p>
             <select className="nobg-input" value={editable.Nationality || ""}  onChange={handleChange}  name="Nationality">
-                {/* <option value="" style={{color:"var(--orange)"}}>{editable.Nationality}</option> */}
+                {/* <option value="" style={{color:"var(--orange)",pointerEvents:"none"}}
+                 selected disabled>{editable.Nationality}</option>  */}
                 {nation.map((ele)=><option key={ele}>{ele}</option>)}
             </select>
             </div>

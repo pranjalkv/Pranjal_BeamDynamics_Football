@@ -15,7 +15,6 @@ function App() {
           <Front isTeam></Front>
            </section>}/>
     </Routes>
-    
     </>
   )
 }

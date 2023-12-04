@@ -51,7 +51,7 @@ function Squad({playerData})
                 <tr className="squad-th">
                  <td>Player Name</td>
                  <td>Jersey Number</td>
-                 <td>Starterss</td>
+                 <td>Starter</td>
                  <td>Position</td>
                  <td>Height</td>
                  <td>Weight</td>
