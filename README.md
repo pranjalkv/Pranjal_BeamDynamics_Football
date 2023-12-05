@@ -24,8 +24,9 @@ Footaball Manager App built with React here are some feautes:
 * When you click Import ,you can only Import files that don't have empty or missing feilds and file must      contain all 15 feilds.
 * You can change "My Team" name to any name by clicking on pen logo ,form pops up when you click again it saves the new name 
 * Search any player by name or Position when query is written press Enter or click to filter items with that query click cross or press Esc to clear the feild.
-* Teamsheet has 4-3-3 formation by default Goalkeeper is selected ,on clicking the player jersey number player info pops up and if image is not availble sample placeholder image is displayed
-*When editing player list of all nationalties(data saved in country.jsx) pops up in select feild .Few countries name don't match with my JSON data i.e. "Morroco" "Morracan" so by default its shows the first option .Although I have changed few nnationalties name but few might be still missing.
+* Teamsheet has 4-3-3 formation by default Goalkeeper is selected ,on clicking the player jersey number player info pops up and if image is not availble sample placeholder image is displayed.
+* When editing player list of all nationalties(data saved in country.jsx) pops up in select feild .Few countries name don't match with my JSON data i.e. "Morroco" "Morracan" so by default its shows the first option 
+ .Although I have changed few nationalties name but few might be still missing.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
