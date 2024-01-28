@@ -72,7 +72,7 @@ _How to setup the project locally_
    ```sh
      npm install react-redux
    ```
-9. Intall React-Redux Bindings`
+9. Run Locally
    ```sh
      npm run dev
    ```
